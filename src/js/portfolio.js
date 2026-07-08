@@ -20,6 +20,9 @@ showMore.addEventListener("click", handleShowMore);
 //btnUp.addEventListener("click", scrollUp);
 //btnDown.addEventListener("click", scrollDown);
 
+btnList.addEventListener("click", handleCategoryBtn);
+showMore.addEventListener("click", handleShowMore);
+
 
 let resCategory = null;
 let activeBtn = null;
